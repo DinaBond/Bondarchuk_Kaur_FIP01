@@ -44,7 +44,7 @@ img, embed, object, video, picture {
    /*Header*/
   
    header {
-     background-image: url(../images/cover.png);
+     background-image: url(../images/main-picture-header.jpg);
      background-size: cover;
      margin: 0px;
    }
@@ -152,17 +152,6 @@ img, embed, object, video, picture {
      font-family: "Montserrat", sans-serif;
      font-weight: 600;
      margin: 30px 0px 30px 0px;
-  
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    height: 100vh;
-    color: #eee;
-    z-index: -1;
-    text-align: center;
-    animation: fadeIn 1.5s ease-in-out;
   }
   
   .search-desktop {
@@ -1110,40 +1099,7 @@ img, embed, object, video, picture {
         border-radius: 20px;
       }
   
-      
      
   
   
   }
-  
-  
-  
-  .animate-me {
-    animation: bounceIn 3s ease-in-out;
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes bounceIn {
-    0% {
-      transform: scale(0.1);
-      opacity: 0;
-    }
-    60% {
-      transform: scale(1.2);
-      opacity: 1;
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
-
-
-  
