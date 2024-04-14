@@ -30,15 +30,21 @@
 //(() => {  })();   
 
 
-//Video 
+//video 
 document.addEventListener('DOMContentLoaded', function() {
     "use strict";
 
-    let video = document.getElementById('videoPlayer');
+    // Get the video element
+    let video = document.getElementById('main-video');
 
+    // Wait for the video metadata to load
     video.addEventListener('loadedmetadata', function() {
+        // Play the video
         video.play();
     });
+
+    // Hide the controls
+    video.removeAttribute("controls");
 });
 
 
